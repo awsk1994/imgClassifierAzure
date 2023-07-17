@@ -1,0 +1,373 @@
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 2626dd9a-b8d8-416f-a11b-91bf751ddfe7
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 2beb41f3-48ec-4523-ba07-6d276f2ed253
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 48851583-22ef-41b3-a35a-798c98e3b054
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 1c9d74fc-a445-48a0-aec4-d8dd534fcf31
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 4e3e2013-6e93-4287-95b4-1fbbc99e1f5c
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 9af5d85a-0e4d-49af-9c73-6d7b4f7a0f8f
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 7dc3ec46-7adc-4ab3-bfbb-861aa3d08578
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 65c20a12-4e94-44f7-a103-0fb447fe3bb2
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 87b7ebd0-9c77-43df-92b0-c91a25a4d1db
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a box of food on a white surface', Confidence 1.0000
+ Dense Captions:
+   'a box of food on a white surface', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a close up of a box', Rectangle(x=28, y=132, w=411, h=156), Confidence: 1.0000
+   'a close up of food', Rectangle(x=311, y=184, w=121, h=94), Confidence: 1.0000
+ Objects:
+ Tags:
+   'text', Confidence 0.9966
+   'food', Confidence 0.9255
+   'prepackaged meal', Confidence 0.8483
+   'indoor', Confidence 0.7752
+   'box', Confidence 0.5998
+ People:
+   Rectangle(x=295, y=144, w=143, h=138), Confidence 0.0327
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=45, w=440, h=300)
+ Text:
+   Line: 'BOLSA CIERRE HERMETCO', Bounding polygon {47, 164, 268, 162, 269, 178, 47, 180}
+     Word: 'BOLSA', Bounding polygon {47, 165, 97, 164, 98, 180, 47, 181}, Confidence 0.9940
+     Word: 'CIERRE', Bounding polygon {103, 164, 162, 163, 163, 180, 103, 180}, Confidence 0.9940
+     Word: 'HERMETCO', Bounding polygon {168, 163, 261, 162, 261, 179, 168, 180}, Confidence 0.9960
+   Line: '& HUKai', Bounding polygon {358, 156, 428, 156, 428, 173, 358, 174}
+     Word: '&', Bounding polygon {363, 157, 372, 157, 372, 174, 363, 175}, Confidence 0.0040
+     Word: 'HUKai', Bounding polygon {384, 158, 427, 158, 428, 172, 384, 174}, Confidence 0.4740
+   Line: 'PURPOSE', Bounding polygon {49, 184, 98, 183, 98, 194, 49, 194}
+     Word: 'PURPOSE', Bounding polygon {49, 184, 96, 184, 96, 194, 49, 195}, Confidence 0.9960
+ Result details:
+   Image ID: img\0000026.jpg
+   Result ID: 75a0aa20-a750-427b-b4ce-527cd08ce70f
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a box of food on a white surface","confidence":1.0},"objectsResult":{"values":[]},"readResult":{"stringIndexType":"TextElements","content":"BOLSA CIERRE HERMETCO\n& HUKai\nPURPOSE","pages":[{"height":360.0,"width":480.0,"angle":-0.5173,"pageNumber":1,"words":[{"content":"BOLSA","boundingBox":[47.0,165.0,97.0,164.0,98.0,180.0,47.0,181.0],"confidence":0.994,"span":{"offset":0,"length":5}},{"content":"CIERRE","boundingBox":[103.0,164.0,162.0,163.0,163.0,180.0,103.0,180.0],"confidence":0.994,"span":{"offset":6,"length":6}},{"content":"HERMETCO","boundingBox":[168.0,163.0,261.0,162.0,261.0,179.0,168.0,180.0],"confidence":0.996,"span":{"offset":13,"length":8}},{"content":"&","boundingBox":[363.0,157.0,372.0,157.0,372.0,174.0,363.0,175.0],"confidence":0.004,"span":{"offset":22,"length":1}},{"content":"HUKai","boundingBox":[384.0,158.0,427.0,158.0,428.0,172.0,384.0,174.0],"confidence":0.474,"span":{"offset":24,"length":5}},{"content":"PURPOSE","boundingBox":[49.0,184.0,96.0,184.0,96.0,194.0,49.0,195.0],"confidence":0.996,"span":{"offset":30,"length":7}}],"spans":[{"offset":0,"length":37}],"lines":[{"content":"BOLSA CIERRE HERMETCO","boundingBox":[47.0,164.0,268.0,162.0,269.0,178.0,47.0,180.0],"spans":[{"offset":0,"length":21}]},{"content":"& HUKai","boundingBox":[358.0,156.0,428.0,156.0,428.0,173.0,358.0,174.0],"spans":[{"offset":22,"length":7}]},{"content":"PURPOSE","boundingBox":[49.0,184.0,98.0,183.0,98.0,194.0,49.0,194.0],"spans":[{"offset":30,"length":7}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a box of food on a white surface","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a close up of a box","confidence":1.0,"boundingBox":{"x":28,"y":132,"w":411,"h":156}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":311,"y":184,"w":121,"h":94}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"text","confidence":0.9966498017311096},{"name":"food","confidence":0.9255274534225464},{"name":"prepackaged meal","confidence":0.8482818603515625},{"name":"indoor","confidence":0.7752334475517273},{"name":"box","confidence":0.5997776985168457}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":45,"w":440,"h":300}}]},"peopleResult":{"values":[{"boundingBox":{"x":295,"y":144,"w":143,"h":138},"confidence":0.03267720341682434}]}}

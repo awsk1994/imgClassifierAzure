@@ -1,0 +1,195 @@
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a yellow box with a picture of food', Confidence 1.0000
+ Dense Captions:
+   'a yellow box with a picture of food', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a box of food on a white background', Rectangle(x=66, y=73, w=335, h=199), Confidence: 1.0000
+   'a close up of food', Rectangle(x=187, y=157, w=137, h=66), Confidence: 1.0000
+   'a piece of food on a plate', Rectangle(x=236, y=123, w=133, h=75), Confidence: 1.0000
+   'a slice of bread with raisins', Rectangle(x=178, y=121, w=182, h=108), Confidence: 1.0000
+   'a yellow box with a picture of a bread', Rectangle(x=16, y=20, w=438, h=309), Confidence: 1.0000
+   'a yellow box with black text', Rectangle(x=170, y=205, w=231, h=65), Confidence: 1.0000
+ Objects:
+   'Office supplies', Rectangle(x=72, y=77, w=330, h=213), Confidence: 0.6990
+ Tags:
+   'snack', Confidence 0.9612
+   'container', Confidence 0.9520
+   'box', Confidence 0.9306
+   'text', Confidence 0.9205
+   'convenience food', Confidence 0.9084
+   'food', Confidence 0.8721
+   'packaging and labeling', Confidence 0.8604
+ People:
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=15, w=440, h=300)
+ Text:
+   Line: 'Bauducco', Bounding polygon {252, 100, 327, 91, 330, 110, 254, 121}
+     Word: 'Bauducco', Bounding polygon {262, 99, 327, 92, 330, 109, 265, 120}, Confidence 0.8570
+   Line: 'PANETTONE', Bounding polygon {188, 240, 383, 213, 385, 227, 190, 255}
+     Word: 'PANETTONE', Bounding polygon {189, 241, 379, 215, 381, 228, 190, 256}, Confidence 0.9930
+   Line: 'FRUTAS', Bounding polygon {262, 244, 330, 236, 331, 246, 263, 255}
+     Word: 'FRUTAS', Bounding polygon {265, 245, 324, 237, 325, 247, 266, 255}, Confidence 0.9060
+ Result details:
+   Image ID: img\000022.jpg
+   Result ID: 3c9107e8-ec53-48a5-ac71-bc747b6c4ad4
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a yellow box with a picture of food","confidence":1.0},"objectsResult":{"values":[{"boundingBox":{"x":72,"y":77,"w":330,"h":213},"tags":[{"name":"Office supplies","confidence":0.699}]}]},"readResult":{"stringIndexType":"TextElements","content":"Bauducco\nPANETTONE\nFRUTAS","pages":[{"height":360.0,"width":480.0,"angle":-7.5392,"pageNumber":1,"words":[{"content":"Bauducco","boundingBox":[262.0,99.0,327.0,92.0,330.0,109.0,265.0,120.0],"confidence":0.857,"span":{"offset":0,"length":8}},{"content":"PANETTONE","boundingBox":[189.0,241.0,379.0,215.0,381.0,228.0,190.0,256.0],"confidence":0.993,"span":{"offset":9,"length":9}},{"content":"FRUTAS","boundingBox":[265.0,245.0,324.0,237.0,325.0,247.0,266.0,255.0],"confidence":0.906,"span":{"offset":19,"length":6}}],"spans":[{"offset":0,"length":25}],"lines":[{"content":"Bauducco","boundingBox":[252.0,100.0,327.0,91.0,330.0,110.0,254.0,121.0],"spans":[{"offset":0,"length":8}]},{"content":"PANETTONE","boundingBox":[188.0,240.0,383.0,213.0,385.0,227.0,190.0,255.0],"spans":[{"offset":9,"length":9}]},{"content":"FRUTAS","boundingBox":[262.0,244.0,330.0,236.0,331.0,246.0,263.0,255.0],"spans":[{"offset":19,"length":6}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a yellow box with a picture of food","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a box of food on a white background","confidence":1.0,"boundingBox":{"x":66,"y":73,"w":335,"h":199}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":187,"y":157,"w":137,"h":66}},{"text":"a piece of food on a plate","confidence":1.0,"boundingBox":{"x":236,"y":123,"w":133,"h":75}},{"text":"a slice of bread with raisins","confidence":1.0,"boundingBox":{"x":178,"y":121,"w":182,"h":108}},{"text":"a yellow box with a picture of a bread","confidence":1.0,"boundingBox":{"x":16,"y":20,"w":438,"h":309}},{"text":"a yellow box with black text","confidence":1.0,"boundingBox":{"x":170,"y":205,"w":231,"h":65}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"snack","confidence":0.9611754417419434},{"name":"container","confidence":0.9519938826560974},{"name":"box","confidence":0.9305661916732788},{"name":"text","confidence":0.9205063581466675},{"name":"convenience food","confidence":0.9084495306015015},{"name":"food","confidence":0.872056245803833},{"name":"packaging and labeling","confidence":0.8604393005371094}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":15,"w":440,"h":300}}]},"peopleResult":{"values":[]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a yellow box with a picture of food', Confidence 1.0000
+ Dense Captions:
+   'a yellow box with a picture of food', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a box of food on a white background', Rectangle(x=66, y=73, w=335, h=199), Confidence: 1.0000
+   'a close up of food', Rectangle(x=187, y=157, w=137, h=66), Confidence: 1.0000
+   'a piece of food on a plate', Rectangle(x=236, y=123, w=133, h=75), Confidence: 1.0000
+   'a slice of bread with raisins', Rectangle(x=178, y=121, w=182, h=108), Confidence: 1.0000
+   'a yellow box with a picture of a bread', Rectangle(x=16, y=20, w=438, h=309), Confidence: 1.0000
+   'a yellow box with black text', Rectangle(x=170, y=205, w=231, h=65), Confidence: 1.0000
+ Objects:
+   'Office supplies', Rectangle(x=72, y=77, w=330, h=213), Confidence: 0.6990
+ Tags:
+   'snack', Confidence 0.9612
+   'container', Confidence 0.9520
+   'box', Confidence 0.9306
+   'text', Confidence 0.9205
+   'convenience food', Confidence 0.9084
+   'food', Confidence 0.8721
+   'packaging and labeling', Confidence 0.8604
+ People:
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=15, w=440, h=300)
+ Text:
+   Line: 'Bauducco', Bounding polygon {252, 100, 327, 91, 330, 110, 254, 121}
+     Word: 'Bauducco', Bounding polygon {262, 99, 327, 92, 330, 109, 265, 120}, Confidence 0.8570
+   Line: 'PANETTONE', Bounding polygon {188, 240, 383, 213, 385, 227, 190, 255}
+     Word: 'PANETTONE', Bounding polygon {189, 241, 379, 215, 381, 228, 190, 256}, Confidence 0.9930
+   Line: 'FRUTAS', Bounding polygon {262, 244, 330, 236, 331, 246, 263, 255}
+     Word: 'FRUTAS', Bounding polygon {265, 245, 324, 237, 325, 247, 266, 255}, Confidence 0.9060
+ Result details:
+   Image ID: img\000022.jpg
+   Result ID: 38032a36-2f13-47eb-af08-9647bad5b274
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a yellow box with a picture of food","confidence":1.0},"objectsResult":{"values":[{"boundingBox":{"x":72,"y":77,"w":330,"h":213},"tags":[{"name":"Office supplies","confidence":0.699}]}]},"readResult":{"stringIndexType":"TextElements","content":"Bauducco\nPANETTONE\nFRUTAS","pages":[{"height":360.0,"width":480.0,"angle":-7.5392,"pageNumber":1,"words":[{"content":"Bauducco","boundingBox":[262.0,99.0,327.0,92.0,330.0,109.0,265.0,120.0],"confidence":0.857,"span":{"offset":0,"length":8}},{"content":"PANETTONE","boundingBox":[189.0,241.0,379.0,215.0,381.0,228.0,190.0,256.0],"confidence":0.993,"span":{"offset":9,"length":9}},{"content":"FRUTAS","boundingBox":[265.0,245.0,324.0,237.0,325.0,247.0,266.0,255.0],"confidence":0.906,"span":{"offset":19,"length":6}}],"spans":[{"offset":0,"length":25}],"lines":[{"content":"Bauducco","boundingBox":[252.0,100.0,327.0,91.0,330.0,110.0,254.0,121.0],"spans":[{"offset":0,"length":8}]},{"content":"PANETTONE","boundingBox":[188.0,240.0,383.0,213.0,385.0,227.0,190.0,255.0],"spans":[{"offset":9,"length":9}]},{"content":"FRUTAS","boundingBox":[262.0,244.0,330.0,236.0,331.0,246.0,263.0,255.0],"spans":[{"offset":19,"length":6}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a yellow box with a picture of food","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a box of food on a white background","confidence":1.0,"boundingBox":{"x":66,"y":73,"w":335,"h":199}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":187,"y":157,"w":137,"h":66}},{"text":"a piece of food on a plate","confidence":1.0,"boundingBox":{"x":236,"y":123,"w":133,"h":75}},{"text":"a slice of bread with raisins","confidence":1.0,"boundingBox":{"x":178,"y":121,"w":182,"h":108}},{"text":"a yellow box with a picture of a bread","confidence":1.0,"boundingBox":{"x":16,"y":20,"w":438,"h":309}},{"text":"a yellow box with black text","confidence":1.0,"boundingBox":{"x":170,"y":205,"w":231,"h":65}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"snack","confidence":0.9611754417419434},{"name":"container","confidence":0.9519938826560974},{"name":"box","confidence":0.9305661916732788},{"name":"text","confidence":0.9205063581466675},{"name":"convenience food","confidence":0.9084495306015015},{"name":"food","confidence":0.872056245803833},{"name":"packaging and labeling","confidence":0.8604393005371094}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":15,"w":440,"h":300}}]},"peopleResult":{"values":[]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a yellow box with a picture of food', Confidence 1.0000
+ Dense Captions:
+   'a yellow box with a picture of food', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a box of food on a white background', Rectangle(x=66, y=73, w=335, h=199), Confidence: 1.0000
+   'a close up of food', Rectangle(x=187, y=157, w=137, h=66), Confidence: 1.0000
+   'a piece of food on a plate', Rectangle(x=236, y=123, w=133, h=75), Confidence: 1.0000
+   'a slice of bread with raisins', Rectangle(x=178, y=121, w=182, h=108), Confidence: 1.0000
+   'a yellow box with a picture of a cake', Rectangle(x=15, y=20, w=439, h=309), Confidence: 1.0000
+   'a yellow box with black text', Rectangle(x=170, y=205, w=231, h=65), Confidence: 1.0000
+ Objects:
+   'Office supplies', Rectangle(x=72, y=77, w=330, h=213), Confidence: 0.6990
+ Tags:
+   'snack', Confidence 0.9612
+   'container', Confidence 0.9520
+   'box', Confidence 0.9306
+   'text', Confidence 0.9205
+   'convenience food', Confidence 0.9084
+   'food', Confidence 0.8721
+   'packaging and labeling', Confidence 0.8604
+ People:
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=15, w=440, h=300)
+ Text:
+   Line: 'Bauducco', Bounding polygon {252, 100, 327, 91, 330, 110, 254, 121}
+     Word: 'Bauducco', Bounding polygon {262, 99, 327, 92, 330, 109, 265, 120}, Confidence 0.8570
+   Line: 'PANETTONE', Bounding polygon {188, 240, 383, 213, 385, 227, 190, 255}
+     Word: 'PANETTONE', Bounding polygon {189, 241, 379, 215, 381, 228, 190, 256}, Confidence 0.9930
+   Line: 'FRUTAS', Bounding polygon {262, 244, 330, 236, 331, 246, 263, 255}
+     Word: 'FRUTAS', Bounding polygon {265, 245, 324, 237, 325, 247, 266, 255}, Confidence 0.9060
+ Result details:
+   Image ID: img\000022.jpg
+   Result ID: 9fe0a9ae-7ff0-4011-a8a0-f2dc83a212e4
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a yellow box with a picture of food","confidence":1.0},"objectsResult":{"values":[{"boundingBox":{"x":72,"y":77,"w":330,"h":213},"tags":[{"name":"Office supplies","confidence":0.699}]}]},"readResult":{"stringIndexType":"TextElements","content":"Bauducco\nPANETTONE\nFRUTAS","pages":[{"height":360.0,"width":480.0,"angle":-7.5392,"pageNumber":1,"words":[{"content":"Bauducco","boundingBox":[262.0,99.0,327.0,92.0,330.0,109.0,265.0,120.0],"confidence":0.857,"span":{"offset":0,"length":8}},{"content":"PANETTONE","boundingBox":[189.0,241.0,379.0,215.0,381.0,228.0,190.0,256.0],"confidence":0.993,"span":{"offset":9,"length":9}},{"content":"FRUTAS","boundingBox":[265.0,245.0,324.0,237.0,325.0,247.0,266.0,255.0],"confidence":0.906,"span":{"offset":19,"length":6}}],"spans":[{"offset":0,"length":25}],"lines":[{"content":"Bauducco","boundingBox":[252.0,100.0,327.0,91.0,330.0,110.0,254.0,121.0],"spans":[{"offset":0,"length":8}]},{"content":"PANETTONE","boundingBox":[188.0,240.0,383.0,213.0,385.0,227.0,190.0,255.0],"spans":[{"offset":9,"length":9}]},{"content":"FRUTAS","boundingBox":[262.0,244.0,330.0,236.0,331.0,246.0,263.0,255.0],"spans":[{"offset":19,"length":6}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a yellow box with a picture of food","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a box of food on a white background","confidence":1.0,"boundingBox":{"x":66,"y":73,"w":335,"h":199}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":187,"y":157,"w":137,"h":66}},{"text":"a piece of food on a plate","confidence":1.0,"boundingBox":{"x":236,"y":123,"w":133,"h":75}},{"text":"a slice of bread with raisins","confidence":1.0,"boundingBox":{"x":178,"y":121,"w":182,"h":108}},{"text":"a yellow box with a picture of a cake","confidence":1.0,"boundingBox":{"x":15,"y":20,"w":439,"h":309}},{"text":"a yellow box with black text","confidence":1.0,"boundingBox":{"x":170,"y":205,"w":231,"h":65}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"snack","confidence":0.9611754417419434},{"name":"container","confidence":0.9519938826560974},{"name":"box","confidence":0.9305661916732788},{"name":"text","confidence":0.9205063581466675},{"name":"convenience food","confidence":0.9084495306015015},{"name":"food","confidence":0.872056245803833},{"name":"packaging and labeling","confidence":0.8604393005371094}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":15,"w":440,"h":300}}]},"peopleResult":{"values":[]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a yellow box with a picture of food', Confidence 1.0000
+ Dense Captions:
+   'a yellow box with a picture of food', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a box of food on a white background', Rectangle(x=66, y=73, w=335, h=199), Confidence: 1.0000
+   'a close up of food', Rectangle(x=187, y=157, w=137, h=66), Confidence: 1.0000
+   'a piece of food on a plate', Rectangle(x=236, y=123, w=133, h=75), Confidence: 1.0000
+   'a slice of bread with raisins', Rectangle(x=178, y=121, w=182, h=108), Confidence: 1.0000
+   'a yellow box with a picture of a bread', Rectangle(x=16, y=20, w=438, h=309), Confidence: 1.0000
+   'a yellow box with black text', Rectangle(x=170, y=205, w=231, h=65), Confidence: 1.0000
+ Objects:
+   'Office supplies', Rectangle(x=72, y=77, w=330, h=213), Confidence: 0.6990
+ Tags:
+   'snack', Confidence 0.9612
+   'container', Confidence 0.9520
+   'box', Confidence 0.9306
+   'text', Confidence 0.9205
+   'convenience food', Confidence 0.9084
+   'food', Confidence 0.8721
+   'packaging and labeling', Confidence 0.8604
+ People:
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=15, w=440, h=300)
+ Text:
+   Line: 'Bauducco', Bounding polygon {252, 100, 327, 91, 330, 110, 254, 121}
+     Word: 'Bauducco', Bounding polygon {262, 99, 327, 92, 330, 109, 265, 120}, Confidence 0.8570
+   Line: 'PANETTONE', Bounding polygon {188, 240, 383, 213, 385, 227, 190, 255}
+     Word: 'PANETTONE', Bounding polygon {189, 241, 379, 215, 381, 228, 190, 256}, Confidence 0.9930
+   Line: 'FRUTAS', Bounding polygon {262, 244, 330, 236, 331, 246, 263, 255}
+     Word: 'FRUTAS', Bounding polygon {265, 245, 324, 237, 325, 247, 266, 255}, Confidence 0.9060
+ Result details:
+   Image ID: img\000022.jpg
+   Result ID: 077d8424-234e-436f-9517-926ad38b3ed2
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a yellow box with a picture of food","confidence":1.0},"objectsResult":{"values":[{"boundingBox":{"x":72,"y":77,"w":330,"h":213},"tags":[{"name":"Office supplies","confidence":0.699}]}]},"readResult":{"stringIndexType":"TextElements","content":"Bauducco\nPANETTONE\nFRUTAS","pages":[{"height":360.0,"width":480.0,"angle":-7.5392,"pageNumber":1,"words":[{"content":"Bauducco","boundingBox":[262.0,99.0,327.0,92.0,330.0,109.0,265.0,120.0],"confidence":0.857,"span":{"offset":0,"length":8}},{"content":"PANETTONE","boundingBox":[189.0,241.0,379.0,215.0,381.0,228.0,190.0,256.0],"confidence":0.993,"span":{"offset":9,"length":9}},{"content":"FRUTAS","boundingBox":[265.0,245.0,324.0,237.0,325.0,247.0,266.0,255.0],"confidence":0.906,"span":{"offset":19,"length":6}}],"spans":[{"offset":0,"length":25}],"lines":[{"content":"Bauducco","boundingBox":[252.0,100.0,327.0,91.0,330.0,110.0,254.0,121.0],"spans":[{"offset":0,"length":8}]},{"content":"PANETTONE","boundingBox":[188.0,240.0,383.0,213.0,385.0,227.0,190.0,255.0],"spans":[{"offset":9,"length":9}]},{"content":"FRUTAS","boundingBox":[262.0,244.0,330.0,236.0,331.0,246.0,263.0,255.0],"spans":[{"offset":19,"length":6}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a yellow box with a picture of food","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a box of food on a white background","confidence":1.0,"boundingBox":{"x":66,"y":73,"w":335,"h":199}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":187,"y":157,"w":137,"h":66}},{"text":"a piece of food on a plate","confidence":1.0,"boundingBox":{"x":236,"y":123,"w":133,"h":75}},{"text":"a slice of bread with raisins","confidence":1.0,"boundingBox":{"x":178,"y":121,"w":182,"h":108}},{"text":"a yellow box with a picture of a bread","confidence":1.0,"boundingBox":{"x":16,"y":20,"w":438,"h":309}},{"text":"a yellow box with black text","confidence":1.0,"boundingBox":{"x":170,"y":205,"w":231,"h":65}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"snack","confidence":0.9611758589744568},{"name":"container","confidence":0.9519937038421631},{"name":"box","confidence":0.9305669069290161},{"name":"text","confidence":0.9205069541931152},{"name":"convenience food","confidence":0.9084497690200806},{"name":"food","confidence":0.8720568418502808},{"name":"packaging and labeling","confidence":0.8604390621185303}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":15,"w":440,"h":300}}]},"peopleResult":{"values":[]}}
+
+ Image height: 360
+ Image width: 480
+ Model version: 2023-02-01-preview
+ Caption:
+   'a yellow box with a picture of food', Confidence 1.0000
+ Dense Captions:
+   'a yellow box with a picture of food', Rectangle(x=0, y=0, w=480, h=360), Confidence: 1.0000
+   'a box of food on a white background', Rectangle(x=66, y=73, w=335, h=199), Confidence: 1.0000
+   'a close up of food', Rectangle(x=187, y=157, w=137, h=66), Confidence: 1.0000
+   'a piece of food on a plate', Rectangle(x=236, y=123, w=133, h=75), Confidence: 1.0000
+   'a slice of bread with raisins', Rectangle(x=178, y=121, w=182, h=108), Confidence: 1.0000
+   'a yellow box with a picture of a cake', Rectangle(x=15, y=20, w=439, h=309), Confidence: 1.0000
+   'a yellow box with black text', Rectangle(x=170, y=205, w=231, h=65), Confidence: 1.0000
+ Objects:
+   'Office supplies', Rectangle(x=72, y=77, w=330, h=213), Confidence: 0.6990
+ Tags:
+   'snack', Confidence 0.9612
+   'container', Confidence 0.9520
+   'box', Confidence 0.9306
+   'text', Confidence 0.9205
+   'convenience food', Confidence 0.9084
+   'food', Confidence 0.8721
+   'packaging and labeling', Confidence 0.8604
+ People:
+ Crop Suggestions:
+   Aspect ratio 1.47: Crop suggestion Rectangle(x=20, y=15, w=440, h=300)
+ Text:
+   Line: 'Bauducco', Bounding polygon {252, 100, 327, 91, 330, 110, 254, 121}
+     Word: 'Bauducco', Bounding polygon {262, 99, 327, 92, 330, 109, 265, 120}, Confidence 0.8570
+   Line: 'PANETTONE', Bounding polygon {188, 240, 383, 213, 385, 227, 190, 255}
+     Word: 'PANETTONE', Bounding polygon {189, 241, 379, 215, 381, 228, 190, 256}, Confidence 0.9930
+   Line: 'FRUTAS', Bounding polygon {262, 244, 330, 236, 331, 246, 263, 255}
+     Word: 'FRUTAS', Bounding polygon {265, 245, 324, 237, 325, 247, 266, 255}, Confidence 0.9060
+ Result details:
+   Image ID: img\000022.jpg
+   Result ID: 298746cc-455d-4e9f-a684-d4bfa66d23a9
+   Connection URL: https://imgclassifier.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags%2Ccaption%2CdenseCaptions%2Cobjects%2Cpeople%2Cread%2CsmartCrops&gender-neutral-caption=true&language=en
+   JSON result: {"captionResult":{"text":"a yellow box with a picture of food","confidence":1.0},"objectsResult":{"values":[{"boundingBox":{"x":72,"y":77,"w":330,"h":213},"tags":[{"name":"Office supplies","confidence":0.699}]}]},"readResult":{"stringIndexType":"TextElements","content":"Bauducco\nPANETTONE\nFRUTAS","pages":[{"height":360.0,"width":480.0,"angle":-7.5392,"pageNumber":1,"words":[{"content":"Bauducco","boundingBox":[262.0,99.0,327.0,92.0,330.0,109.0,265.0,120.0],"confidence":0.857,"span":{"offset":0,"length":8}},{"content":"PANETTONE","boundingBox":[189.0,241.0,379.0,215.0,381.0,228.0,190.0,256.0],"confidence":0.993,"span":{"offset":9,"length":9}},{"content":"FRUTAS","boundingBox":[265.0,245.0,324.0,237.0,325.0,247.0,266.0,255.0],"confidence":0.906,"span":{"offset":19,"length":6}}],"spans":[{"offset":0,"length":25}],"lines":[{"content":"Bauducco","boundingBox":[252.0,100.0,327.0,91.0,330.0,110.0,254.0,121.0],"spans":[{"offset":0,"length":8}]},{"content":"PANETTONE","boundingBox":[188.0,240.0,383.0,213.0,385.0,227.0,190.0,255.0],"spans":[{"offset":9,"length":9}]},{"content":"FRUTAS","boundingBox":[262.0,244.0,330.0,236.0,331.0,246.0,263.0,255.0],"spans":[{"offset":19,"length":6}]}]}],"styles":[],"modelVersion":"2022-04-30"},"denseCaptionsResult":{"values":[{"text":"a yellow box with a picture of food","confidence":1.0,"boundingBox":{"x":0,"y":0,"w":480,"h":360}},{"text":"a box of food on a white background","confidence":1.0,"boundingBox":{"x":66,"y":73,"w":335,"h":199}},{"text":"a close up of food","confidence":1.0,"boundingBox":{"x":187,"y":157,"w":137,"h":66}},{"text":"a piece of food on a plate","confidence":1.0,"boundingBox":{"x":236,"y":123,"w":133,"h":75}},{"text":"a slice of bread with raisins","confidence":1.0,"boundingBox":{"x":178,"y":121,"w":182,"h":108}},{"text":"a yellow box with a picture of a cake","confidence":1.0,"boundingBox":{"x":15,"y":20,"w":439,"h":309}},{"text":"a yellow box with black text","confidence":1.0,"boundingBox":{"x":170,"y":205,"w":231,"h":65}}]},"modelVersion":"2023-02-01-preview","metadata":{"width":480,"height":360},"tagsResult":{"values":[{"name":"snack","confidence":0.9611754417419434},{"name":"container","confidence":0.9519938826560974},{"name":"box","confidence":0.9305661916732788},{"name":"text","confidence":0.9205063581466675},{"name":"convenience food","confidence":0.9084495306015015},{"name":"food","confidence":0.872056245803833},{"name":"packaging and labeling","confidence":0.8604393005371094}]},"smartCropsResult":{"values":[{"aspectRatio":1.47,"boundingBox":{"x":20,"y":15,"w":440,"h":300}}]},"peopleResult":{"values":[]}}
