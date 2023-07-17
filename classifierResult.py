@@ -20,14 +20,14 @@ class ClassifierResult:
 
     def add_tag(self, name, conf):
         self.tags.append({
-            name: name,
-            conf: conf,
+            "name": name,
+            "conf": conf,
         })
     
     def add_caption(self, name, conf):
         self.captions.append({
-            name: name,
-            conf: conf,
+            "name": name,
+            "conf": conf,
         })
     def add_text(self, text):
         self.texts.append(text)

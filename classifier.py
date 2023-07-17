@@ -11,7 +11,7 @@ def getLogFile(imgPath, logDir):
     imgName = getImgName(imgPath)
     logPath = "{}\\{}.log".format(logDir, imgName)
     print("Writing to {}".format(logPath))
-    log_file = open(logPath, "a")
+    log_file = open(logPath, "a", encoding="utf-8")
     # log_file.write("OK")
     log(log_file, "")
     return log_file

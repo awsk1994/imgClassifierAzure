@@ -1,12 +1,13 @@
 import os
 import glob
-
+import time
 from classifier import classifyImg
 import json
 
 logDir = "log_1" # TODO: use timestamp
 imgDir = "img"
 outJsonFileName = "out.json" # use timestamp
+count_quota_per_minute = 20
 
 def jsonDump(filename, j):
     with open(filename, "w") as outfile:
@@ -26,9 +27,13 @@ def main():
 
     rets = []
     for img in imgs:
+        print("Classifying {}".format(img))
         ret = classifyImg(img, logDir)
         rets.append(ret.to_json())
-        print("Finished processing img({})".format(img))
+        print("Finished classifying img({})".format(img))
+        print("Sleeping 3 seconds...")
+        time.sleep(3)   # 20 calls per minute, meaning every call interval is 60/20 = 3
+
     jsonDump(outJsonFileName, rets)
 
 main()
