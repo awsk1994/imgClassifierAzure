@@ -5,7 +5,6 @@ from classifier import classifyImg
 import json
 
 logDir = "log_1" # TODO: use timestamp
-logPath = "./out.log" # use timestamp
 imgDir = "img"
 outJsonFileName = "out.json" # use timestamp
 
